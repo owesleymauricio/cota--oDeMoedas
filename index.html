@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cotação de Moedas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Cotação de Moedas</h1>
+        <div>
+            <label for="moeda">Selecione a moeda:</label>
+            <br>
+            <select id="moeda">
+                <option value="USD">Dólar Americano (USD)</option>
+                <option value="EUR">Euro (EUR)</option>
+                <option value="JPY">Iene Japonês (JPY)</option>
+                <option value="CAD">Dolar Canadense (CAD)</option>
+                <option value="GBP">Libra (GBP)</option>
+                <option value="ARS">Peso Argentino (ARS)</option>
+                <option value="CLP">Peso Chileno (CLP)</option>
+
+                <!-- Adicione outras opções de moedas conforme necessário -->
+            </select>
+
+            <button onclick="mostrarResultado()">Obter Cotação</button>
+        </div>
+        <h2> resultado aqui:</h2>
+        <p id="resultado"></p>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
